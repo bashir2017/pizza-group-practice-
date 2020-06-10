@@ -1,0 +1,9 @@
+<%= form_for @pizza do |f| %>
+<%=f.label :types%>
+<%=f.text_field :types%>
+<%=f.label :toppings%>
+<%=f.text_field :toppings%>
+<%=f.label :size%>
+<%=f.text_field :size%>
+<%=f.submit "Submit Pizza"%> 
+<%end%>
